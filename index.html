@@ -31,6 +31,39 @@
 		text-align: justify;
 		border: yellow double 3px;
 	}
+	table {
+		width:80%;
+	}
+	table, th, td {
+  		border: 1px solid black;
+  		border-collapse: collapse;
+	}
+	th, td {
+  		padding: 15px;
+  		text-align: center;
+	}
+	#t01 {
+		text-align: justify;
+		width: 100%;
+		background-color: green;
+		border: yellow double 3px;
+			}
+	#t02 {
+		text-align: justify;
+		width: 100%;
+		background-color: white;
+		border: black solid 1px;
+			}
+	#t03 tr:nth-child(even) {
+  		background-color: gray;
+		}
+	#t03 tr:nth-child(odd) {
+ 		background-color: #fff;
+		}
+	#t03 th {
+  		background-color: green;
+  		color: white;
+		}
 	</style>
 </head>
 <body>
@@ -64,7 +97,7 @@
 </ul>
 <hr>
 <h2>Table Section</h2>
-<table>
+<table id="t03">
 	<tr>
 		<th>Company</th>
 		<th>Contact</th>
@@ -75,8 +108,13 @@
 		<td>0128924893274</td>
 		<td>France</td>
 	</tr>
-<tr>
+	<tr>
 		<td>AirAsia</td>
+		<td>0128924893274</td>
+		<td>Malaysia</td>
+	</tr>
+	<tr>
+		<td>Malindo</td>
 		<td>0128924893274</td>
 		<td>Malaysia</td>
 	</tr>
